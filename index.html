@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document Summary Assistant</title>
+  <!-- PDF.js for PDF parsing -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
+  <!-- Tesseract.js for OCR (image text extraction) -->
+  <script src="https://cdn.jsdelivr.net/npm/tesseract.js@4.0.2/dist/tesseract.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Document Summary Assistant</h1>
+  <p>Upload your document (PDF or image) below to generate a summary:</p>
+
+  <input type="file" id="fileInput" accept=".pdf,.jpg,.jpeg,.png">
+
+  <p>Select summary length:</p>
+  <label><input type="radio" name="length" value="short" checked> Short</label>
+  <label><input type="radio" name="length" value="medium"> Medium</label>
+  <label><input type="radio" name="length" value="long"> Long</label>
+
+  <br><br>
+  <button onclick="processFile()">Generate Summary</button>
+
+  <div id="summaryBox">Summary will appear here.</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
