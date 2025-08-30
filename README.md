@@ -25,3 +25,13 @@ This app lets you upload a PDF or image file and shows a summary of the document
 
 ## Hosting
 You can host this app on Netlify or Vercel to make it live.
+## Live Demo
+[https://clever-biscochitos-ba5830.netlify.app](https://clever-biscochitos-ba5830.netlify.app)
+
+## GitHub Repository
+[https://github.com/Palak-7998/document-summary-assistant](https://github.com/Palak-7998/document-summary-assistant)
+
+## Google Drive ZIP
+[https://drive.google.com/file/d/117NM91Hf4xFkezFCalzuSJovhN-Q7QkA/view?usp=sharing](https://drive.google.com/file/d/117NM91Hf4xFkezFCalzuSJovhN-Q7QkA/view?usp=sharing)
+
+
